@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #00ffff31;
+}
+body {
+  min-height: auto;
+}
+
+#skills {
+  background-color: #00ffff31;
+}
+
+a {
+  text-decoration: none !important;
+}
+.progress-title {
+  width: 100%;
+  height: auto;
+}
+.progress-title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(27, 0, 0, 0.63);
+  margin: 0 0 20px;
+}
+.progress {
+  height: 20px;
+  background: #171b3c;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 0 2px 2px #4f4c4c;
+  margin-bottom: 40px;
+  overflow: visible;
+  position: relative;
+}
+.progress .progress-bar {
+  border-radius: 20px;
+  border: 1px solid #000;
+  animation: animate-positive 2s;
+}
+.progress .progress-value {
+  width: 65px;
+  height: 25px;
+  line-height: 25px;
+  background: #171b3c;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 0 0 15px 15px;
+  border: 1px solid #000;
+  border-top: none;
+  box-shadow: 0 2px 2px #4f4c4c;
+}
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0 0.5em;
+}
+#contact {
+  background-color: #00ffff31;
+}
+
+#footer {
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #00ffffbd;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+}
+
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
